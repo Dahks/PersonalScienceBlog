@@ -28,7 +28,7 @@
   </article>
 
   <aside>
-    <h3>On this page</h3>
+    <h3 class="font-semibold">On this page</h3>
     <ul>
       {#each toc as header}
         <li style="padding-left: {(header.level - 1) * 1}rem">
